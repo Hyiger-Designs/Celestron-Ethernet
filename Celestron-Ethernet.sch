@@ -1533,4 +1533,6 @@ Wire Wire Line
 	1750 2350 2550 2350
 Wire Wire Line
 	1750 2450 2550 2450
+Text Label 4450 5150 0    50   ~ 0
+12V
 $EndSCHEMATC
