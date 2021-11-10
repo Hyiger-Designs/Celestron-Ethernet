@@ -1,0 +1,4 @@
+gerbers/*.*
+*.zip
+_autosave*
+*/*.bak
