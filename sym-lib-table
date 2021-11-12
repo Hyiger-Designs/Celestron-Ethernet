@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MCU_Microchip_ATmega)(type Legacy)(uri ${KIPRJMOD}/MCU_Microchip_ATmega.lib)(options "")(descr ""))
+  (lib (name Regulator_Linear)(type Legacy)(uri ${KIPRJMOD}/Regulator_Linear.lib)(options "")(descr ""))
 )
