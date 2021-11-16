@@ -912,14 +912,14 @@ F 3 "" H 5000 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 1600 5000 1400
-Text Label 5200 1700 0    50   ~ 0
+Text Label 5200 1900 0    50   ~ 0
 SCL
 Text Label 5200 1800 0    50   ~ 0
 SDA
 Wire Wire Line
 	5400 1800 5100 1800
 Wire Wire Line
-	5400 1700 5100 1700
+	5400 1900 5100 1900
 Wire Wire Line
 	5000 1600 5400 1600
 Wire Wire Line
@@ -948,10 +948,10 @@ F 3 "~" H 5600 1800 50  0001 C CNN
 	1    5600 1800
 	1    0    0    1   
 $EndComp
-Text Label 5200 1900 0    50   ~ 0
+Text Label 5200 1700 0    50   ~ 0
 IRQ
 Wire Wire Line
-	5400 1900 5100 1900
+	5400 1700 5100 1700
 Entry Wire Line
 	7300 2200 7400 2300
 Text Label 7450 2300 0    50   ~ 0
