@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Celestron Ethernet Adapter"
+Date "2021-11-17"
+Rev "1.0"
+Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
