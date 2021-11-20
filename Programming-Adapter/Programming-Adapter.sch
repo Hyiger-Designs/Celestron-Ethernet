@@ -1,0 +1,72 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:6P6C J3
+U 1 1 618BD528
+P 6200 2900
+F 0 "J3" H 5870 2904 50  0000 R CNN
+F 1 "6P6C" H 5870 2995 50  0000 R CNN
+F 2 "Connector_RJ:RJ12_Amphenol_54601" V 6200 2925 50  0001 C CNN
+F 3 "~" V 6200 2925 50  0001 C CNN
+F 4 "54601-906001WPLF" H 6200 2900 50  0001 C CNN "MPN"
+F 5 "Amphenol" H 6200 2900 50  0001 C CNN "Manufacturer"
+	1    6200 2900
+	-1   0    0    1   
+$EndComp
+NoConn ~ 250  6900
+Text Label 4400 3200 0    50   ~ 0
+BUSY
+Wire Wire Line
+	5500 3100 5500 3350
+Wire Wire Line
+	5800 3100 5500 3100
+$Comp
+L power:+12V #PWR015
+U 1 1 624D3855
+P 5500 2700
+F 0 "#PWR015" H 5500 2550 50  0001 C CNN
+F 1 "+12V" H 5515 2873 50  0000 C CNN
+F 2 "" H 5500 2700 50  0001 C CNN
+F 3 "" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2900 5500 2700
+Wire Wire Line
+	5800 2900 5500 2900
+Wire Wire Line
+	5800 2800 3500 2800
+Text Label 4550 2800 2    50   ~ 0
+RXI
+Text Label 4550 3000 2    50   ~ 0
+TXO
+$Comp
+L power:GND #PWR016
+U 1 1 618C763B
+P 5500 3350
+F 0 "#PWR016" H 5500 3100 50  0001 C CNN
+F 1 "GND" H 5505 3177 50  0000 C CNN
+F 2 "" H 5500 3350 50  0001 C CNN
+F 3 "" H 5500 3350 50  0001 C CNN
+	1    5500 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3000 5800 3000
+Wire Wire Line
+	2950 3200 5800 3200
+$EndSCHEMATC
