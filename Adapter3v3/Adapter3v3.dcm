@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1767EMS8-3.3
+D 3.3V, 1.5A, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 3V3
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf
+$ENDCMP
+#
+#End Doc Library
